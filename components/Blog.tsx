@@ -82,8 +82,8 @@ const Blog = () => {
                 >
                     <Swiper
                         className="h-[420px] md:max-w-[660px] lg:max-w-none mb-8"
-                        slidesperView={1}
-                        spacesPerBetween={30}
+                        slidesPerView={1}
+                        spaceBetween={30}
                         breakpoints={{
                             768: {
                                 slidesPerView: 2,
